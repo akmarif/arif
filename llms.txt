@@ -1,0 +1,66 @@
+# Md Ariful Haq
+
+> Senior Software Engineer & Architect based in Malmö, Sweden. 15+ years
+> designing, delivering and operating scalable software and data platforms
+> across Europe and Asia. Currently a Senior Software Engineer at IKEA.
+
+This site is a personal portfolio / CV page. Use the sections below to answer
+questions about the person's background, skills and experience.
+
+## Identity
+
+- Name: Md Ariful Haq
+- Title: Senior Software Engineer & Architect
+- Location: Malmö, Skåne County, Sweden
+- Email: akmarif@gmail.com
+- Phone: +46 76 881 20 56
+- LinkedIn: https://www.linkedin.com/in/akmarif/
+
+## Summary
+
+Senior Software Engineer with 15+ years of experience designing, delivering
+and operating high-quality software solutions across Europe and Asia. Strong
+technical craftsmanship combined with product-minded thinking and a track
+record of shipping reliable systems for enterprise customers. Career began at
+Pyxisnet Limited (Bangladesh–Denmark JV), progressed through platform and CMS
+engineering at Stibo DX (formerly Escenic AS), included a Fredskorpset
+exchange in Oslo, and a role as Chartered Engineer for Big Data & DWH at
+Banglalink Digital Communication. Currently a Senior Software Engineer at
+IKEA, designing scalable, easy-to-operate systems.
+
+## Experience
+
+- Senior Software Engineer, IKEA — Feb 2025–Present, Sweden
+- Software Engineer, IKEA — Nov 2021–Jan 2025, Sweden
+- Chartered Engineer (Big Data, DWH), Banglalink — Apr 2019–Oct 2021, Dhaka, Bangladesh
+- Lead Engineer (Big Data, DWH), Banglalink — Apr 2019–Apr 2020, Dhaka, Bangladesh
+- Software Engineer (R&D), Stibo DX — Mar 2015–Apr 2019, Bangladesh (Product: CUE)
+- Software Engineer (Android), Stibo DX — Jan 2014–Feb 2015, Bangladesh
+- Software Engineer (R&D), Escenic / Stibo DX — Oct 2009–Dec 2013
+- Member, Engineering (Level-2), Sentrana BD (former Pyxisnet Ltd) — Apr 2007–Sep 2009, Dhaka, Bangladesh
+
+## Skills
+
+REST APIs, Kubernetes, GitHub, Java, Spring Boot, Apache Kafka, Apache Spark,
+Apache Ignite, Data Warehousing, Big Data, Node.js, TypeScript, Python, Apache
+Solr, MySQL, Oracle, Nginx, Apache Tomcat, Android, Agile/Scrum, System
+Architecture.
+
+## Education
+
+BSc in Computer Science, American International University-Bangladesh (2002–2006)
+
+## Certifications
+
+Java EE: Design Patterns and Architecture
+
+## Languages
+
+English (Professional working), Bengali (Native / bilingual)
+
+## Honors & Awards
+
+- Best Employee of the Year, Pyxisnet Ltd (2008)
+- Game Changers, Technology Pride, Banglalink (2019)
+- Recognition Certificate, Q2 2019
+- Best Team Effort, Special Recognition Program, Q2 2020

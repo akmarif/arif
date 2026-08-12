@@ -33,6 +33,29 @@ body {
 a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--accent-2);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: var(--accent-2);
+  color: #08111f;
+  font-weight: 700;
+  padding: 10px 16px;
+  border-radius: 0 0 8px 0;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  left: 0;
+}
+
 .wrap {
   max-width: var(--max);
   margin: 0 auto;
@@ -243,7 +266,7 @@ section h2::before {
   box-shadow: 0 0 10px rgba(110, 168, 254, 0.8);
 }
 
-.role { font-weight: 700; margin: 0; }
+.role { font-weight: 700; margin: 0; font-size: 1rem; }
 .company { color: var(--accent-2); font-weight: 600; }
 .period { display: block; color: var(--muted); font-size: 0.88rem; margin: 2px 0 8px; }
 .timeline p.desc { margin: 0; color: var(--muted); }
