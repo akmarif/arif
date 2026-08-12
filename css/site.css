@@ -134,11 +134,12 @@ button:focus-visible {
   letter-spacing: -0.02em;
 }
 
-.hero .role-rotator {
+.hero .role-highlight {
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  position: relative;
 }
 
 .hero .tagline {

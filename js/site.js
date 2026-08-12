@@ -21,26 +21,6 @@
     });
   }
 
-  // Rotating role titles in the hero
-  var roles = [
-    "Senior Software Engineer",
-    "Software Architect",
-    "Data & Platform Engineer",
-    "Scalable Systems Builder"
-  ];
-  var rotator = document.querySelector(".role-rotator");
-  if (rotator) {
-    var i = 0;
-    setInterval(function () {
-      i = (i + 1) % roles.length;
-      rotator.style.opacity = 0;
-      setTimeout(function () {
-        rotator.textContent = roles[i];
-        rotator.style.opacity = 1;
-      }, 250);
-    }, 2800);
-  }
-
   // Reveal-on-scroll animations
   var revealEls = document.querySelectorAll(".reveal");
   if ("IntersectionObserver" in window && revealEls.length) {
