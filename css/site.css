@@ -132,13 +132,11 @@ button:focus-visible {
   line-height: 1.1;
   margin: 0 0 14px;
   letter-spacing: -0.02em;
+  color: #ffffff;
 }
 
 .hero .role-highlight {
-  background: linear-gradient(135deg, var(--accent), var(--accent-2));
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  color: #ffffff;
   position: relative;
 }
 
