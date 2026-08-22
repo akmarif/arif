@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6ea8fe"/>
+      <stop offset="100%" stop-color="#7ee7c7"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="15%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#6ea8fe" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#6ea8fe" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="95%" cy="10%" r="55%">
+      <stop offset="0%" stop-color="#7ee7c7" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#7ee7c7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="#0b1020"/>
+  <rect width="1200" height="630" fill="url(#glow1)"/>
+  <rect width="1200" height="630" fill="url(#glow2)"/>
+
+  <!-- Avatar badge (matches favicon) -->
+  <rect x="90" y="90" width="110" height="110" rx="24" fill="#0b1020"/>
+  <rect x="90" y="90" width="110" height="110" rx="24" fill="url(#g)" opacity="0.18"/>
+  <rect x="90" y="90" width="110" height="110" rx="24" fill="none" stroke="url(#g)" stroke-width="2" opacity="0.6"/>
+  <text x="145" y="168" font-family="-apple-system,Segoe UI,Roboto,Arial,sans-serif" font-size="52" font-weight="700" text-anchor="middle" fill="url(#g)">AH</text>
+
+  <text x="90" y="290" font-family="-apple-system,Segoe UI,Roboto,Arial,sans-serif" font-size="58" font-weight="700" fill="#e8ecf5">Md Ariful Haq</text>
+
+  <text x="90" y="345" font-family="-apple-system,Segoe UI,Roboto,Arial,sans-serif" font-size="34" font-weight="600" fill="#ffffff">Senior Software Engineer &amp; Architect</text>
+
+  <text x="90" y="392" font-family="-apple-system,Segoe UI,Roboto,Arial,sans-serif" font-size="24" fill="#9aa6bf">15+ years designing &amp; operating scalable software and data platforms</text>
+  <text x="90" y="426" font-family="-apple-system,Segoe UI,Roboto,Arial,sans-serif" font-size="24" fill="#9aa6bf">across Europe and Asia · Currently at IKEA</text>
+
+  <!-- pill -->
+  <rect x="90" y="470" width="230" height="46" rx="23" fill="none" stroke="#ffffff" stroke-opacity="0.15"/>
+  <text x="205" y="499" font-family="-apple-system,Segoe UI,Roboto,Arial,sans-serif" font-size="22" letter-spacing="1" text-anchor="middle" fill="#7ee7c7">📍 MALMÖ, SWEDEN</text>
+
+  <text x="90" y="580" font-family="-apple-system,Segoe UI,Roboto,Arial,sans-serif" font-size="22" fill="#6ea8fe">arifulhaq.com</text>
+</svg>
