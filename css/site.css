@@ -353,3 +353,61 @@ footer {
   .hero { padding: 60px 0 44px; }
   .nav a { margin-left: 14px; font-size: 0.9rem; }
 }
+
+@media (max-width: 420px) {
+  .site-header .wrap {
+    height: auto;
+    flex-wrap: wrap;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    row-gap: 8px;
+  }
+  .nav { width: 100%; display: flex; justify-content: space-between; }
+  .nav a { margin-left: 0; }
+}
+
+/* Respect reduced-motion preference */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .reveal { opacity: 1; transform: none; }
+}
+
+/* Print styles — makes the page usable as an exportable, ATS-friendly CV */
+@media print {
+  .site-header, .to-top, .skip-link, .actions, .contact-links { display: none; }
+
+  body {
+    background: #fff;
+    color: #000;
+    font-size: 12pt;
+  }
+
+  a { color: #000; text-decoration: underline; }
+
+  .hero { padding: 0 0 24px; }
+  .hero h1, .hero .role-highlight { color: #000; }
+  .eyebrow, .tagline, .location, .lead, .bullets, .stat .label,
+  .period, .company, .timeline p.desc, .card p, .card ul {
+    color: #333 !important;
+  }
+
+  .stats, .card, .stat, .tags li {
+    background: none;
+    border: 1px solid #ccc;
+    box-shadow: none;
+  }
+
+  section { padding: 20px 0; border-top: 1px solid #ccc; page-break-inside: avoid; }
+  section h2::before { box-shadow: none; }
+
+  .timeline { border-left: 1px solid #ccc; }
+  .timeline > li::before { background: #fff; border-color: #000; }
+
+  .reveal { opacity: 1; transform: none; }
+}

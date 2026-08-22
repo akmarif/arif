@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://akmarif.github.io/arif/sitemap.xml
+Sitemap: https://arifulhaq.com/sitemap.xml
