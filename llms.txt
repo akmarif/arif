@@ -31,7 +31,7 @@ IKEA, designing scalable, easy-to-operate systems.
 ## Experience
 
 - Senior Software Engineer, IKEA — Feb 2025–Present, Sweden
-- Software Engineer, IKEA — Nov 2021–Jan 2025, Sweden
+- Software Engineer (Consultant), IKEA — Nov 2021–Jan 2025, Sweden
 - Chartered Engineer (Big Data, DWH), Banglalink — Apr 2019–Oct 2021, Dhaka, Bangladesh
 - Lead Engineer (Big Data, DWH), Banglalink — Apr 2019–Apr 2020, Dhaka, Bangladesh
 - Software Engineer (R&D), Stibo DX — Mar 2015–Apr 2019, Bangladesh (Product: CUE)
